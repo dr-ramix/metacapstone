@@ -1,0 +1,56 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
+}
+
+nav .logo {
+    flex: 1.5;
+    width: 22%;
+    height: 8vh;
+}
+
+nav ul {
+    flex: 6;
+    display: flex;
+    justify-content: space-between;
+    list-style-type:none;
+}
+
+nav ul a {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    color: #335a2e;
+}
+
+
+@media (min-width: 930px) and (max-width: 1300px) {
+    nav .logo {
+        width: 22%;
+        height: 5vh;
+    }
+    nav ul a {
+        font-size: 14px;
+    }
+}
+
+
+@media  (min-width: 590px) and (max-width: 930px) {
+    nav .logo {
+        width: 20%;
+        height: 3vh;
+    }
+    nav ul a {
+        font-size: 11px;
+    }
+}
+
+@media  (max-width: 590px) {
+
+}

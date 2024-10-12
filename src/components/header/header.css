@@ -1,0 +1,19 @@
+header {
+    width: 70vw;
+    height: 15vh;
+    margin: 0px 15vw;
+    align-content: center;
+
+}
+
+@media  (min-width: 590px) and (max-width: 930px) {
+   header {
+    width: 80vw;
+    margin: 0 10vw;
+   }
+}
+
+
+@media  (max-width: 590px) {
+
+}
